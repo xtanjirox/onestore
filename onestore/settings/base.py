@@ -5,11 +5,11 @@ from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-SECRET_KEY = "django-insecure-1&y6@%#9s26pz&09s_s7=o0*zdu(#zi&!59j^ti4^6$dfz-9b)"
+SECRET_KEY = "django-insecure-onestore&y6@%#9s26pz&09s_s7=o0*zdu(#zi&!59j^ti4^6$dfz-9b)"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'localhost', 'localhost:85', '127.0.0.1', config('SERVER', default='127.0.0.1')]
+ALLOWED_HOSTS = ['*', 'localhost', 'localhost:85', '127.0.0.onestore', config('SERVER', default='127.0.0.onestore')]
 
 CSRF_TRUSTED_ORIGINS = ['http://localhost', 'http://127.0.0.1']
 
