@@ -1,0 +1,9 @@
+Django==5.0
+python-decouple==3.5
+django-ninja==1.1.0
+django-ninja-extra==0.20.2
+django-tables2==2.7.0
+requests==2.31.0
+django-crispy-forms==2.1
+crispy-bootstrap4==2023.1
+django_select2==8.1.2
